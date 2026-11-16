@@ -432,7 +432,7 @@ An interactive dashboard developed using Pivot Tables, Pivot Charts, and Slicers
 
 **Dashboard Preview:**
 
-![Interactive Pivot Dashboard](dashboard/screenshots/Pivot_Dashboard.png)
+![Interactive Pivot Dashboard](dashboard/pivot_dashboard.png)
 
 The Slicers allow users to filter employee data dynamically and observe changes in KPI values and charts.
 
