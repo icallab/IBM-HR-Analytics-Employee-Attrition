@@ -14,11 +14,8 @@ The analysis aims to provide insights into employee attrition across departments
 - [Dataset Description](#dataset-description)
 - [Tools & Technologies](#tools--technologies)
 - [Project Workflow](#project-workflow)
-- [Data Preparation & Quality Assessment](#data-preparation--quality-assessment)
-- [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Key Performance Indicators](#key-performance-indicators)
 - [Key Business Insights](#key-business-insights)
-- [Excel Dashboards](#excel-dashboards)
 - [Business Recommendations](#business-recommendations)
 - [Repository Structure](#repository-structure)
 - [How to Use](#how-to-use)
@@ -35,10 +32,7 @@ This project analyzes the IBM HR Analytics Employee Attrition & Performance data
 
 The entire analysis was performed using **Microsoft Excel**, without relying on Python, SQL, or Power BI.
 
-The project includes two Excel dashboards:
-
-1. **HR Analytics Dashboard** – A formula-based dashboard presenting key HR metrics and analytical charts.
-2. **Interactive Pivot Dashboard** – A dashboard built using Pivot Tables, Pivot Charts, and interactive Slicers that allow users to explore employee attrition dynamically.
+The project includes an Interactive Pivot Dashboard – A dashboard built using Pivot Tables, Pivot Charts, and interactive Slicers that allow users to dynamically explore employee attrition.
 
 ---
 
@@ -390,28 +384,8 @@ These patterns can help HR teams identify areas for further investigation.
 
 ---
 
-## Excel Dashboards
 
-This project includes two dashboards developed entirely in Microsoft Excel.
-
-### 1. HR Analytics Dashboard
-
-A formula-based dashboard designed to provide an overview of employee attrition and workforce metrics.
-
-**Key Components:**
-
-- Total Employees
-- Attrition Count
-- Active Employees
-- Attrition Rate
-- Employee attrition analysis charts
-- HR performance indicators
-
-**Dashboard Preview:**
-
-![HR Analytics Dashboard](dashboard/screenshots/HR_Dashboard.png)
-
-### 2. Interactive Pivot Dashboard
+## Interactive Pivot Dashboard
 
 An interactive dashboard developed using Pivot Tables, Pivot Charts, and Slicers.
 
@@ -528,26 +502,21 @@ The following structure is recommended for organizing the project files:
 ```text
 IBM-HR-Analytics-Employee-Attrition/
 │
+├── dashboard/
+│   └── pivot_dashboard.png
+│    
 ├── data/
 │   ├── WA_Fn-UseC_-HR-Employee-Attrition.csv
-│   └── IBM_HR_Analytics_Cleaned.xlsx
-│
-├── workbook/
-│   └── IBM_HR_Analytics_Employee_Attrition.xlsx
-│
-├── dashboard/
-│   └── screenshots/
-│       ├── HR_Dashboard.png
-│       └── Pivot_Dashboard.png
-│
+|
 ├── documentation/
 │   ├── Business_Insights.md
 │   └── Business_Recommendations.md
 │
+├── workbook/
+│   └── IBM_HR_Analytics_Employee_Attrition.xlsx
+│
 └── README.md
 ```
-
-*Note: Adjust the folder and file names to match the actual repository structure.*
 
 ---
 
@@ -556,10 +525,9 @@ IBM-HR-Analytics-Employee-Attrition/
 1. Clone or download this repository.
 2. Open the `workbook` folder.
 3. Open `IBM_HR_Analytics_Employee_Attrition.xlsx` using Microsoft Excel.
-4. Navigate to the `HR_Dashboard` sheet to view the formula-based dashboard.
-5. Navigate to the `Pivot_Dashboard` sheet to explore the interactive dashboard.
-6. Use the available Slicers to filter employee data by department, gender, age group, overtime, job role, and marital status.
-7. Clear the Slicer filters to return to the overall employee analysis.
+4. Navigate to the `Pivot_Dashboard` sheet to explore the interactive dashboard.
+5. Use the available Slicers to filter employee data by department, gender, age group, overtime, job role, and marital status.
+6. Clear the Slicer filters to return to the overall employee analysis.
 
 **Note:** Microsoft Excel desktop is recommended for the best experience with Pivot Tables, Pivot Charts, and Slicers.
 
@@ -587,11 +555,4 @@ The resulting insights and recommendations can support HR teams in identifying p
 
 ---
 
-## Author
-
-**Data Analytics Portfolio Project**
-
-**Focus:** HR Analytics | Employee Attrition | Data Analysis | Microsoft Excel
-
-**Tools:** Microsoft Excel
 
