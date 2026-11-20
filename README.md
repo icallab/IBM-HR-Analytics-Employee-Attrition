@@ -16,6 +16,7 @@ The analysis aims to provide insights into employee attrition across departments
 - [Project Workflow](#project-workflow)
 - [Key Performance Indicators](#key-performance-indicators)
 - [Key Business Insights](#key-business-insights)
+- [Interactive Pivot Dashboard](#interactive-pivot-dashboard)
 - [Business Recommendations](#business-recommendations)
 - [Repository Structure](#repository-structure)
 - [How to Use](#how-to-use)
@@ -205,7 +206,7 @@ Created 10 Pivot Tables and 10 Pivot Charts to analyze attrition across differen
 
 ### 6. Dashboard Development
 
-Developed two Excel dashboards to present key metrics and analytical findings.
+Developed dashboards to present key metrics and analytical findings.
 
 ---
 
